@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фитнес-клуб ALEXFLEX GYM</title>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+<link href="style.css" rel="stylesheet"></head>
+<body>
+  <div class="container">
+    <header class="header">
+
+      <div class="header__logo logo">
+        <a class="logo__link" href="/">
+          <span class="logo__condensered">alexflex gym</span>
+          элитный фитнес-клуб
+        </a>
+      </div>
+
+      <ul class="header__contacts-block contacts-block">
+        <li class="contacts-block__phone">
+          +7 938 153 33 34
+        </li>
+        <li class="contacts-block__address">
+          Азов, ул. Ленина 77
+        </li>
+      </ul>
+
+      <section class="header__offer-block offer-block">
+        <h1 class="offer-block__title">
+          Фитнес-клуб <span class="offer-block__title--medium">премиум класса</span> в центре Азова
+        </h1>
+
+        <button class="offer-block__button button" type="button">Посмотреть абонементы</button>
+        <span class="offer-block__button-description">Мы разработали несколько гибких тарифных планов, которые подойдут каждому</span>
+      </section>
+
+      <ul class="header__advantages advantages">
+
+        <li class="advantages__item">
+          <span class="advantages__item-title">
+            300 <span class="advantages__item-title--colored">м<sup>2</sup></span>
+          </span>
+          <span class="advantages__item-description">
+            Общая площадь фитнес-клуба
+          </span>
+        </li>
+
+        <li class="advantages__item">
+          <span class="advantages__item-title">
+            50 <span class="advantages__item-title--colored">PRO</span>
+          </span>
+          <span class="advantages__item-description">
+            Профессиональных тренажёров премиум класса
+          </span>
+        </li>
+
+        <li class="advantages__item">
+          <span class="advantages__item-title">
+            13 <span class="advantages__item-title--colored">EXP</span>
+          </span>
+          <span class="advantages__item-description">
+            Квалифицированных фитнес тренеров клуба
+          </span>
+        </li>
+
+      </ul>
+
+    </header>
+
+    <section class="zones">
+      <header class="zones__header zones-header">
+        <div class="zones-header__title">
+          Помимо тренажерного зала <span class="zones-header__title--colored">комплекс оснащен</span> следующими зонами
+        </div>
+        <p class="zones-header__description">
+          Мы создали фитнес-клуб так, чтобы в нем могли одинаково эффективно тренироваться и новички, и профессионалы.
+        </p>
+      </header>
+
+      <div class="zones__slider slider owl-carousel owl-theme">
+        <div class="item slider__item">
+          <div class="item__card item-card">
+            <img width="159" height="auto" class="item-card__img" src="img/cardio.png" alt="">
+            <p class="item-card__text"><span class="item-card__text--embed">Кардиозона</span> на 15 тренажеров</p>
+          </div>
+        </div>
+        <div class="item slider__item">
+          <div class="item__card item-card">
+            <img width="159" height="auto" class="item-card__img" src="img/fitness.png" alt="">
+            <p class="item-card__text"><span class="item-card__text--embed">Фитнес-бар</span> с коктейлями</p>
+          </div>
+        </div>
+        <div class="item slider__item">
+          <div class="item__card item-card">
+            <img width="159" height="auto" class="item-card__img" src="img/group.png" alt="">
+            <p class="item-card__text"><span class="item-card__text--embed">Зал для групповых</span> занятий</p>
+          </div>
+        </div>
+        <div class="item slider__item">
+          <div class="item__card item-card">
+            <img width="159" height="auto" class="item-card__img" src="img/diet.png" alt="">
+            <p class="item-card__text">Стенд <span class="item-card__text--embed">спортивного питания </span> в клубе</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:2
+        },
+        900:{
+          items:3
+        },
+        1120:{
+          items:4
+        }
+      }
+    });
+  </script>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
